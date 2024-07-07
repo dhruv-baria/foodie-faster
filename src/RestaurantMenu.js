@@ -12,7 +12,7 @@ const RestaurantMenu = () => {
 
   useEffect(() => {
     fetchMenu();
-  }, []); 
+  },); 
 
   const fetchMenu = async () => {
     const data = await fetch(MEN_URL + resId + "&catalog_qa=undefined&submitAction=ENTER");
