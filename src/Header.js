@@ -15,7 +15,7 @@ const Header = () => {
     return (
         <div className="flex space-x-4 justify-between shadow-lg w-full ">
             <div className="logo-container">
-                <img className="w-32" src={CDN_URL} alt="" />
+                <img alt="" className="w-32" src={CDN_URL}/>
             </div>
             <div className="nav-item">
                 <ul className="flex p-4 m-4 content-center text-lg ">

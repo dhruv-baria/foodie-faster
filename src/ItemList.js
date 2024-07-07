@@ -1,6 +1,5 @@
 import { useDispatch, useSelector } from "react-redux";
 import { addItem } from "./utiles/cartSlice";
-import { useState } from "react";
 
 
 
@@ -40,7 +39,7 @@ const dispatch = useDispatch();
                             onClick={() => handleAddItem(item)}
                             >{isAlreadyAdded(item) }</button>
                         </div>
-                        <img src={"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/" + item.card.info.imageId} className="rounded-lg w-60 h-32"/>
+                        <img alt="" src={"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/" + item.card.info.imageId} className="rounded-lg w-60 h-32"/>
                      </div>
                 </div>
 

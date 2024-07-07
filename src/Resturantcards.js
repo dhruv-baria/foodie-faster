@@ -6,7 +6,7 @@ const ResturantCard = (props) => {
     return (
         <div className="m-4 p-4 w-[250px] cursor-pointer hover:scale-105">
             <div className="relative  ">
-            <img className="rounded-xl size-40 w-72 [box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset]" alt="resimg" src={RES_URL + resData.info.cloudinaryImageId} />
+            <img alt="" className="rounded-xl size-40 w-72 [box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset]" src={RES_URL + resData.info.cloudinaryImageId} />
             <div className="absolute inset-0 flex font-extrabold text-white mx-2 items-end text-xl">
             <h2 className="[text-shadow:_0_1px_0_rgb(0_0_0_/_70%)]">{resData.info.costForTwo}</h2>
             </div>
